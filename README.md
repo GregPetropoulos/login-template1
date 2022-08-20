@@ -1,4 +1,6 @@
-## Login Template 1 with ContextAPI State Management
+# Login Template 1 with ContextAPI State Management
+
+![Login Template](./src/assets/login.png)
 
 A basic login with username and password. If the user is logged in then show the profile. If the user logs out show the login page. This doesn't not have any validation, authentication or storage
 
