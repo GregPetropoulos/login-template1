@@ -1,4 +1,4 @@
-import { useState, useContext } from 'react';
+import { useContext } from 'react';
 import { LoginContext } from '../Contexts/LoginContext';
 
 
@@ -29,7 +29,6 @@ const {inputs, setInputs,setShowProfile}=useContext(LoginContext)
         onChange={onChange}
       />
       <button onClick={() => setShowProfile(true)}>Login Here</button>
-      {/* {showProfile && <h2>{inputs.username}</h2>} */}
     </>
   );
 };

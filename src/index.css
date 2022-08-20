@@ -20,6 +20,19 @@ input {
   background-color: rgb(210, 210, 207);
   color: black;
 }
+button {
+  padding: 10px;
+  border-color: rgb(254, 78, 192);
+  border-radius: 10px;
+  background-color: rgb(254, 78, 192);
+  color: black;
+  width: 25%;
+  transition: all 1s ease-in-out;
+}
+button:hover {
+  transform: scale(0.8);
+  background-color: rgb(210, 210, 207);
+}
 .container {
   text-align: center;
   display: flex;
